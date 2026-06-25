@@ -1,26 +1,147 @@
 @import "tailwindcss";
 
+@theme {
+  /* Brand Forest Greens */
+  --color-pd-green-950: #062918;
+  --color-pd-green-900: #0B3A22;
+  --color-pd-green-800: #104A2D;
+  --color-pd-green-700: #185C38;
+
+  /* Brand Warm Creams */
+  --color-pd-cream-50: #FFFDF7;
+  --color-pd-cream-100: #F8F2E5;
+  --color-pd-cream-200: #EFE4CC;
+
+  /* Brand Restrained Golds */
+  --color-pd-gold-500: #C69A3D;
+  --color-pd-gold-600: #A87D24;
+
+  /* Text & Border Colors */
+  --color-pd-text: #112318;
+  --color-pd-muted: #667468;
+  --color-pd-border: rgba(11, 58, 34, 0.16);
+
+  /* Typography Mapping for Google Fonts loaded in Layout */
+  --font-serif: var(--font-cormorant), serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: var(--color-pd-cream-50);
+  --foreground: var(--color-pd-text);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+/* Scrollbar customization for premium aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-pd-cream-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-pd-green-800);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-pd-green-900);
+}
+
+/* ─── Cinematic Hero Entrance Animations ─── */
+@keyframes hero-fade-rise {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes hero-image-zoom {
+  0% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+@keyframes hero-gold-line {
+  0% { width: 0; opacity: 0; }
+  100% { width: 64px; opacity: 1; }
+}
+
+@keyframes hero-badge-glow {
+  0% { opacity: 0; transform: translateY(12px); filter: blur(4px); }
+  100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+.animate-hero-rise {
+  animation: hero-fade-rise 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+.animate-hero-zoom {
+  animation: hero-image-zoom 2.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-hero-gold-line {
+  animation: hero-gold-line 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.6s forwards;
+  width: 0;
+  opacity: 0;
+}
+
+.animate-hero-badge {
+  animation: hero-badge-glow 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+  opacity: 0;
+}
+
+/* ─── Checkout Flow Animations ─── */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes loading-bar {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ─── Skeletal Loader Pulsing ─── */
+@keyframes pulse-skeleton {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse-skeleton {
+  animation: pulse-skeleton 1.5s ease-in-out infinite;
+}
+
+/* ─── Accessibility Support: Reduced Motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: scroll !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+  .animate-hero-rise, 
+  .animate-hero-zoom, 
+  .animate-hero-gold-line, 
+  .animate-hero-badge, 
+  .animate-fadeIn {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+    width: auto !important;
+    animation: none !important;
+  }
+  .animate-hero-gold-line {
+    width: 64px !important;
+  }
 }
