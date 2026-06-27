@@ -9,27 +9,27 @@ export default function ProductDetailPage() {
   const productImages = [
     {
       src: "/assets/premium-daab/product-hero.webp",
-      alt: "Premium Dab Front View",
+      alt: "Premium Daab Front View",
       label: "Signature Front",
     },
     {
       src: "/assets/premium-daab/product-angle-left.webp",
-      alt: "Premium Dab Angled Left",
+      alt: "Premium Daab Angled Left",
       label: "Left Angle",
     },
     {
       src: "/assets/premium-daab/product-angle-right.webp",
-      alt: "Premium Dab Angled Right",
+      alt: "Premium Daab Angled Right",
       label: "Right Angle",
     },
     {
       src: "/assets/premium-daab/product-top-straw.webp",
-      alt: "Premium Dab Top Straw Insertion",
+      alt: "Premium Daab Top Straw Insertion",
       label: "Straw Entry",
     },
     {
       src: "/assets/premium-daab/product-label-closeup.webp",
-      alt: "Premium Dab Brand Label",
+      alt: "Premium Daab Brand Label",
       label: "Branding",
     },
   ];
@@ -119,7 +119,7 @@ export default function ProductDetailPage() {
               {/* Title & Price */}
               <div className="flex flex-col gap-1.5 border-b border-pd-border/60 pb-6">
                 <h2 className="text-4xl font-serif text-pd-green-900 leading-tight">
-                  Premium Dab
+                  Premium Daab
                 </h2>
                 <span className="text-sm font-semibold text-pd-green-800/70 font-sans tracking-wide uppercase">
                   Young Coconut (Raw & Refreshing)
@@ -212,7 +212,7 @@ export default function ProductDetailPage() {
                 <div className="bg-white rounded-2xl border border-pd-border/60 p-4 flex flex-col gap-3 text-left">
                   <div>
                     <span className="block text-xs font-bold text-pd-gold-600 uppercase">Hosting Bundle</span>
-                    <span className="block font-serif text-base font-bold text-pd-green-900">4-Dab Pack</span>
+                    <span className="block font-serif text-base font-bold text-pd-green-900">4-Daab Pack</span>
                     <span className="font-sans font-bold text-pd-green-950 mt-1 block">৳480</span>
                   </div>
                   <Link href="/order?quantity=4" className="w-full">
@@ -226,7 +226,7 @@ export default function ProductDetailPage() {
                 <div className="bg-white rounded-2xl border border-pd-border/60 p-4 flex flex-col gap-3 text-left">
                   <div>
                     <span className="block text-xs font-bold text-pd-gold-600 uppercase">Family Bundle</span>
-                    <span className="block font-serif text-base font-bold text-pd-green-900">6-Dab Pack</span>
+                    <span className="block font-serif text-base font-bold text-pd-green-900">6-Daab Pack</span>
                     <span className="font-sans font-bold text-pd-green-950 mt-1 block">৳720</span>
                   </div>
                   <Link href="/order?quantity=6" className="w-full">

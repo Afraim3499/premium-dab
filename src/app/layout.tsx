@@ -18,19 +18,19 @@ const cormorant = Cormorant_Garamond({
 
 
 export const metadata: Metadata = {
-  title: "Premium Dab — 100% Natural Young Coconut Delivered Fresh",
+  title: "Premium Daab — 100% Natural Young Coconut Delivered Fresh",
   description:
-    "Premium Dab brings a clean, fresh, and hygienic young coconut experience to modern Bangladesh. Check delivery availability and order fresh young coconut straight to your home or office.",
+    "Premium Daab brings a clean, fresh, and hygienic young coconut experience to modern Bangladesh. Check delivery availability and order fresh young coconut straight to your home or office.",
   metadataBase: new URL(SITE_URL), // Dynamic base URL for metadata
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Premium Dab — 100% Natural Young Coconut Delivered Fresh",
+    title: "Premium Daab — 100% Natural Young Coconut Delivered Fresh",
     description:
-      "Premium Dab brings a clean, fresh, and hygienic young coconut experience to modern Bangladesh. Check delivery availability and order fresh young coconut straight to your home or office.",
+      "Premium Daab brings a clean, fresh, and hygienic young coconut experience to modern Bangladesh. Check delivery availability and order fresh young coconut straight to your home or office.",
     url: "/",
-    siteName: "Premium Dab",
+    siteName: "Premium Daab",
     locale: "en_US",
     type: "website",
   },

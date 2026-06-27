@@ -4,16 +4,16 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
-  title: "Premium Young Coconut — Raw, Natural & Untouched | Premium Dab",
+  title: "Premium Young Coconut — Raw, Natural & Untouched | Premium Daab",
   description:
-    "Purchase Premium Dab young coconuts. 100% natural, hygienic handling, zero sugar added, zero preservatives. Standard single orders and multi-pack options available.",
+    "Purchase Premium Daab young coconuts. 100% natural, hygienic handling, zero sugar added, zero preservatives. Standard single orders and multi-pack options available.",
   alternates: {
     canonical: "/product",
   },
   openGraph: {
-    title: "Premium Young Coconut — Raw, Natural & Untouched | Premium Dab",
+    title: "Premium Young Coconut — Raw, Natural & Untouched | Premium Daab",
     description:
-      "Purchase Premium Dab young coconuts. 100% natural, hygienic handling, zero sugar added, zero preservatives.",
+      "Purchase Premium Daab young coconuts. 100% natural, hygienic handling, zero sugar added, zero preservatives.",
     url: "/product",
     type: "website",
     images: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         url: "/assets/premium-daab/product-hero.webp",
         width: 800,
         height: 1000,
-        alt: "Premium Dab Young Coconut Single Unit",
+        alt: "Premium Daab Young Coconut Single Unit",
       },
     ],
   },
@@ -31,7 +31,7 @@ export default function ProductPage() {
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Premium Dab Young Coconut",
+    "name": "Premium Daab Young Coconut",
     "image": [
       `${SITE_URL}/assets/premium-daab/product-hero.webp`,
       `${SITE_URL}/assets/premium-daab/product-angle-left.webp`,
@@ -41,7 +41,7 @@ export default function ProductPage() {
     "sku": "premium-daab-single",
     "brand": {
       "@type": "Brand",
-      "name": "Premium Dab"
+      "name": "Premium Daab"
     },
     "offers": {
       "@type": "Offer",

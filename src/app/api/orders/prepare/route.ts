@@ -116,7 +116,7 @@ export async function POST(request: Request) {
 
     // 5. Build WhatsApp structured message & redirect link
     const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "8801410120299";
-    const whatsappMessage = `Hello Premium Dab! 🥥
+    const whatsappMessage = `Hello Premium Daab! 🥥
 
 I would like to confirm my order. Here are my details:
 
@@ -124,7 +124,7 @@ Order Number: ${orderNumber}
 Name: ${customerName}
 Phone: ${normalizedPhone}
 Address: ${fullAddress}, ${area}, ${city}
-Quantity: ${quantity} x Premium Dab (৳${unitPrice}/unit)
+Quantity: ${quantity} x Premium Daab (৳${unitPrice}/unit)
 Subtotal: ৳${subtotal}
 Delivery Fee: ৳${deliveryCharge}
 Total: ৳${total}

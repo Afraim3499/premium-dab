@@ -76,7 +76,7 @@ function AvailabilityContent() {
           <div className="w-full max-w-2xl flex flex-col gap-8 animate-fadeIn">
             <div className="text-center max-w-md mx-auto mb-2">
               <p className="text-base text-pd-muted leading-relaxed">
-                Premium Dab delivers fresh young coconuts directly to homes, offices, and gyms. We are actively serving the entire <strong>Bashundhara Residential Area</strong>, with expansion to other areas in Dhaka coming soon. Select your location below to check active delivery coverage in your sector or block.
+                Premium Daab delivers fresh young coconuts directly to homes, offices, and gyms. We are actively serving the entire <strong>Bashundhara Residential Area</strong>, with expansion to other areas in Dhaka coming soon. Select your location below to check active delivery coverage in your sector or block.
               </p>
             </div>
             <AvailabilityChecker />
@@ -119,7 +119,7 @@ function AvailabilityContent() {
                     We&apos;re not there yet!
                   </h3>
                   <p className="text-sm text-pd-muted leading-relaxed">
-                    Premium Dab does not serve <span className="font-semibold text-pd-green-900">{areaParam}, {cityParam}</span> yet. Register your details below to join the launch waitlist.
+                    Premium Daab does not serve <span className="font-semibold text-pd-green-900">{areaParam}, {cityParam}</span> yet. Register your details below to join the launch waitlist.
                   </p>
                 </div>
 

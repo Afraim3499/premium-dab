@@ -75,7 +75,7 @@ export const AdminSidebar: React.FC<AdminSidebarProps> = ({ adminUser }) => {
         <div className="relative w-10 h-7 flex items-center justify-center bg-white/10 rounded-lg p-1">
           <Image
             src="/assets/premium-daab/logo.webp"
-            alt="Premium Dab Logo"
+            alt="Premium Daab Logo"
             width={36}
             height={24}
             className="object-contain brightness-0 invert"
@@ -83,7 +83,7 @@ export const AdminSidebar: React.FC<AdminSidebarProps> = ({ adminUser }) => {
         </div>
         <div className="flex flex-col text-left">
           <span className="font-serif text-xl font-bold tracking-tight leading-none text-white">
-            Premium Dab
+            Premium Daab
           </span>
           <span className="text-[9px] uppercase font-bold tracking-widest text-pd-gold-400 mt-1">
             Ops Dashboard

@@ -14,7 +14,7 @@ export default function NotFound() {
           <div className="relative w-14 h-10 flex items-center justify-center">
             <Image
               src="/assets/premium-daab/logo.webp"
-              alt="Premium Dab Logo"
+              alt="Premium Daab Logo"
               width={60}
               height={40}
               className="object-contain"

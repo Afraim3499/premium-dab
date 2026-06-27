@@ -26,8 +26,8 @@ The packaging assets can be used for visual brand/bulk-order sections, but do no
 The database can still be extensible so new SKUs can be added later:
 
 - Single Daab
-- 4 Dab Pack
-- 6 Dab Family Pack
+- 4 Daab Pack
+- 6 Daab Family Pack
 - Coconut Milk Shake
 - Event / Bulk Order
 

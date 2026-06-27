@@ -23,8 +23,8 @@ Use:
 - `/assets/product/front-facing-product-hero.png`
 - `/assets/product/product-label-close-up.png`
 - `/assets/product/product-top-straw-detail.png`
-- `/assets/events/dab-cart.png`
-- `/assets/packs/4-dab-pack.png`
+- `/assets/events/daab-cart.png`
+- `/assets/packs/4-daab-pack.png`
 
 ## Section 1 — Hero
 

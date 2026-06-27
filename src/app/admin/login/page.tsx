@@ -110,7 +110,7 @@ function AdminLoginForm() {
           <div className="relative w-14 h-10 flex items-center justify-center">
             <Image
               src="/assets/premium-daab/logo.webp"
-              alt="Premium Dab Logo"
+              alt="Premium Daab Logo"
               width={60}
               height={40}
               className="object-contain"
@@ -119,7 +119,7 @@ function AdminLoginForm() {
           </div>
           <div className="flex flex-col gap-1">
             <span className="font-serif text-3xl font-bold text-pd-green-900 leading-none">
-              Premium Dab
+              Premium Daab
             </span>
             <span className="text-[10px] uppercase font-bold tracking-widest text-pd-gold-600 font-sans mt-0.5">
               Operations Center

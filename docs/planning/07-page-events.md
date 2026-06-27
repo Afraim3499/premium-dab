@@ -20,9 +20,9 @@ This page sells bigger opportunities: weddings, office refreshment, gyms, cafés
 
 Use:
 
-- `/assets/events/dab-cart.png`
-- `/assets/packs/4-dab-pack.png`
-- `/assets/packs/6-dab-family-pack.png`
+- `/assets/events/daab-cart.png`
+- `/assets/packs/4-daab-pack.png`
+- `/assets/packs/6-daab-family-pack.png`
 - `/assets/brand/menu-board.png`
 
 ## Section 1 — Hero
@@ -46,7 +46,7 @@ View Pack Options
 
 ### Visual
 
-Use `dab-cart.png`. This is the key visual for the page.
+Use `daab-cart.png`. This is the key visual for the page.
 
 ## Section 2 — Perfect For
 
@@ -98,7 +98,7 @@ The Premium Daab cart is designed as a compact, mobile, coconut-shaped serving s
 
 ### Visual
 
-Use `dab-cart.png`.
+Use `daab-cart.png`.
 
 ## Section 4 — Pack Options
 
@@ -108,20 +108,20 @@ Pack options for groups and families.
 
 ### Card 1
 
-**4 Dab Pack**  
+**4 Daab Pack**  
 Ideal for small family orders and compact group refreshment.
 
 ### Card 2
 
-**6 Dab Family Pack**  
+**6 Daab Family Pack**  
 Better for larger family orders, offices, and small gatherings.
 
 ### Visuals
 
 Use:
 
-- `4-dab-pack.png`
-- `6-dab-family-pack.png`
+- `4-daab-pack.png`
+- `6-daab-family-pack.png`
 
 ### Note
 

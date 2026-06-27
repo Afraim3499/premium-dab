@@ -4,16 +4,16 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
-  title: "Check Delivery Availability — Bashundhara R/A & Dhaka | Premium Dab",
+  title: "Check Delivery Availability — Bashundhara R/A & Dhaka | Premium Daab",
   description:
-    "Verify if Premium Dab delivers to your location in Dhaka. Serving Bashundhara Residential Area, Gulshan, Banani, and more with fresh young coconut delivery.",
+    "Verify if Premium Daab delivers to your location in Dhaka. Serving Bashundhara Residential Area, Gulshan, Banani, and more with fresh young coconut delivery.",
   alternates: {
     canonical: "/availability",
   },
   openGraph: {
-    title: "Check Delivery Availability — Bashundhara R/A & Dhaka | Premium Dab",
+    title: "Check Delivery Availability — Bashundhara R/A & Dhaka | Premium Daab",
     description:
-      "Verify if Premium Dab delivers to your location in Dhaka. Serving Bashundhara Residential Area, Gulshan, Banani, and more.",
+      "Verify if Premium Daab delivers to your location in Dhaka. Serving Bashundhara Residential Area, Gulshan, Banani, and more.",
     url: "/availability",
     type: "website",
   },

@@ -107,9 +107,9 @@ If no lifestyle images are available, use elegant icon cards and product-led lay
 
 ### 7. Events and bulk preview
 Use:
-- `dab cart.png`
-- `4 dab pack.png`
-- `6 dab family pack.png`
+- `daab cart.png`
+- `4 daab pack.png`
+- `6 daab family pack.png`
 
 Content:
 - Offices

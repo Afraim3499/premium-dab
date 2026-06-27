@@ -25,9 +25,9 @@ Use:
 - `/assets/product/front-facing-product-hero.png`
 - `/assets/product/product-cutout-transparent.png`
 - `/assets/product/product-label-close-up.png`
-- `/assets/events/dab-cart.png`
-- `/assets/packs/4-dab-pack.png`
-- `/assets/packs/6-dab-family-pack.png`
+- `/assets/events/daab-cart.png`
+- `/assets/packs/4-daab-pack.png`
+- `/assets/packs/6-daab-family-pack.png`
 - `/assets/brand/menu-board.png`
 
 ## Section 1 — Hero
@@ -183,7 +183,7 @@ From pop-up carts to office deliveries and event counters, Premium Daab is built
 
 ### Visual
 
-Use `dab-cart.png`.
+Use `daab-cart.png`.
 
 ### CTA
 
@@ -203,8 +203,8 @@ Premium Daab pack options are designed for family orders, office refreshment, an
 
 Use:
 
-- `4-dab-pack.png`
-- `6-dab-family-pack.png`
+- `4-daab-pack.png`
+- `6-daab-family-pack.png`
 
 ### Note
 

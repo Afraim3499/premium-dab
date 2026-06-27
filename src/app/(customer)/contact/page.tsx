@@ -5,16 +5,16 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
-  title: "Contact Premium Dab — Phone, WhatsApp & Support | Premium Dab",
+  title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
   description:
-    "Get in touch with the Premium Dab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com, or check delivery coverage.",
+    "Get in touch with the Premium Daab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com, or check delivery coverage.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact Premium Dab — Phone, WhatsApp & Support | Premium Dab",
+    title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
     description:
-      "Get in touch with the Premium Dab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com.",
+      "Get in touch with the Premium Daab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com.",
     url: "/contact",
     type: "website",
   },

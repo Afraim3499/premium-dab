@@ -361,9 +361,9 @@ The current asset folder includes:
 D:\premium_dab\product image.jpeg
 D:\premium_dab\Product label close-up.png
 D:\premium_dab\Product topstraw detail.png
-D:\premium_dab\4 dab pack.png
-D:\premium_dab\6 dab family pack.png
-D:\premium_dab\dab cart.png
+D:\premium_dab\4 daab pack.png
+D:\premium_dab\6 daab family pack.png
+D:\premium_dab\daab cart.png
 D:\premium_dab\Front-facing product hero.png
 D:\premium_dab\menu.png
 D:\premium_dab\Premium Daab logo.png
@@ -397,9 +397,9 @@ D:\premium_dab\Product angled right.png
 | Product topstraw detail.png | product-top-straw-detail.png |
 | Product label close-up.png | product-label-closeup.png |
 | product image.jpeg | product-main-packaged.jpeg |
-| 4 dab pack.png | packaging-4-dab-pack.png |
-| 6 dab family pack.png | packaging-6-dab-family-pack.png |
-| dab cart.png | portable-daab-cart.png |
+| 4 daab pack.png | packaging-4-daab-pack.png |
+| 6 daab family pack.png | packaging-6-daab-family-pack.png |
+| daab cart.png | portable-daab-cart.png |
 | menu.png | premium-daab-menu-board.png |
 | premium_daab_product_cutout_actual_transparent.png | product-cutout-transparent.png |
 | premium_daab_product_cutout_full_canvas_transparent.png | product-cutout-full-canvas-transparent.png |
@@ -412,7 +412,7 @@ D:\premium_dab\Product angled right.png
 | Product | product-hero-front, product-angle-left, product-angle-right, product-top-straw-detail, product-label-closeup |
 | Availability | product-cutout-transparent, product-main-packaged, location graphics generated in UI |
 | Order | product-cutout-transparent, small product thumbnail |
-| Events | portable-daab-cart, packaging-4-dab-pack, packaging-6-dab-family-pack |
+| Events | portable-daab-cart, packaging-4-daab-pack, packaging-6-daab-family-pack |
 | Our Story | product-main-packaged, top detail, cart, packaging |
 | FAQ | product-cutout-transparent, detail shots |
 | Contact | product-cutout-transparent, cart or product hero |

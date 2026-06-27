@@ -5,16 +5,16 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
-  title: "Our Sourcing & Freshness Commitment | Premium Dab",
+  title: "Our Sourcing & Freshness Commitment | Premium Daab",
   description:
-    "Learn how Premium Dab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh to Bashundhara R/A and Dhaka.",
+    "Learn how Premium Daab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh to Bashundhara R/A and Dhaka.",
   alternates: {
     canonical: "/our-story",
   },
   openGraph: {
-    title: "Our Sourcing & Freshness Commitment | Premium Dab",
+    title: "Our Sourcing & Freshness Commitment | Premium Daab",
     description:
-      "Learn how Premium Dab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh.",
+      "Learn how Premium Daab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh.",
     url: "/our-story",
     type: "website",
   },
@@ -96,13 +96,13 @@ export default function OurStoryPage() {
               For generations, enjoying a daab in Dhaka meant standing by busy roadsides, navigating unpredictable pricing, and sipping from dusty husks. We believed this national treasure deserved a cleaner, more beautiful serving experience.
             </p>
             <p className="text-sm sm:text-base text-pd-muted leading-relaxed">
-              Premium Dab brings young coconuts into modern homes, corporate desks, and celebratory events with a selection and sanitation process that ensures every sip is pure, clean, and perfectly sweet.
+              Premium Daab brings young coconuts into modern homes, corporate desks, and celebratory events with a selection and sanitation process that ensures every sip is pure, clean, and perfectly sweet.
             </p>
           </div>
 
           <div className="bg-white border border-pd-border/80 rounded-3xl p-8 sm:p-10 shadow-sm text-left flex flex-col gap-6">
             <h3 className="font-serif text-2xl font-bold text-pd-green-950">
-              The Premium Dab Promise
+              The Premium Daab Promise
             </h3>
             <ul className="flex flex-col gap-5">
               <li className="flex gap-4">

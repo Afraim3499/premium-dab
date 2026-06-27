@@ -21,7 +21,7 @@ The contact page should make the brand feel reachable and trustworthy. It should
 Use:
 
 - `/assets/product/product-cutout-transparent.png`
-- `/assets/events/dab-cart.png`
+- `/assets/events/daab-cart.png`
 - `/assets/product/product-main.jpeg`
 
 ## Section 1 — Hero
@@ -132,7 +132,7 @@ Tell us your date, location, and quantity. Our team will confirm setup and deliv
 
 ### Visual
 
-Use `dab-cart.png`.
+Use `daab-cart.png`.
 
 ### CTA
 

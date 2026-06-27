@@ -60,7 +60,7 @@ const PACKAGES = [
     title: "Bespoke Cart Setup",
     qty: "10+ Units",
     price: "Inquire",
-    description: "Bring the complete physical Premium Dab serving experience to your venue. Includes curated ice displays, preparation tools, and serving support.",
+    description: "Bring the complete physical Premium Daab serving experience to your venue. Includes curated ice displays, preparation tools, and serving support.",
   },
 ];
 

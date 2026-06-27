@@ -18,9 +18,9 @@ To ensure clean paths and prevent case-sensitive deployment issues (e.g. on Verc
 | `premium_daab_product_cutout_actual_transparent.png` | `/public/assets/product/product-cutout-transparent.png` | Transparent PNG | Floating card graphics, page transitions, and cart overlays. |
 | `premium_daab_product_cutout_full_canvas_transparent.png` | `/public/assets/product/product-cutout-full-canvas.png` | Transparent PNG | Availability check results, background graphics. |
 | `menu.png` | `/public/assets/brand/menu-board.png` | Brand Board PNG | Our Story page, corporate pitch section. |
-| `dab cart.png` | `/public/assets/events/dab-cart.png` | Showcase PNG | Events & Bulk order hero presentation. |
-| `4 dab pack.png` | `/public/assets/packs/4-dab-pack.png` | Bundle PNG | Product bundles section, event checkout card. |
-| `6 dab family pack.png` | `/public/assets/packs/6-dab-family-pack.png` | Bundle PNG | Product bundles section, family order card. |
+| `daab cart.png` | `/public/assets/events/daab-cart.png` | Showcase PNG | Events & Bulk order hero presentation. |
+| `4 daab pack.png` | `/public/assets/packs/4-daab-pack.png` | Bundle PNG | Product bundles section, event checkout card. |
+| `6 daab family pack.png` | `/public/assets/packs/6-daab-family-pack.png` | Bundle PNG | Product bundles section, family order card. |
 
 ---
 

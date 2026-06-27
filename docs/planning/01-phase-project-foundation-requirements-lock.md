@@ -34,9 +34,9 @@ Source file list provided by user:
 - D:\premium_dab\product image.jpeg
 - D:\premium_dab\Product label close-up.png
 - D:\premium_dab\Product topstraw detail.png
-- D:\premium_dab\4 dab pack.png
-- D:\premium_dab\6 dab family pack.png
-- D:\premium_dab\dab cart.png
+- D:\premium_dab\4 daab pack.png
+- D:\premium_dab\6 daab family pack.png
+- D:\premium_dab\daab cart.png
 - D:\premium_dab\Front-facing product hero.png
 - D:\premium_dab\menu.png
 - D:\premium_dab\Premium Daab logo.png

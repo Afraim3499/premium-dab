@@ -102,7 +102,7 @@ Minimum:
 ## Content QA
 Review:
 - No typos.
-- No inconsistent “Dab/Daab” spelling unless intentional.
+- No inconsistent “Daab/Daab” spelling unless intentional.
 - No fake claims.
 - No unsupported health claims.
 - Prices consistent.

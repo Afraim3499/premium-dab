@@ -34,14 +34,14 @@ export async function POST(request: Request) {
     if (!serviceArea) {
       return NextResponse.json({
         available: false,
-        message: `Premium Dab does not deliver to ${area}, ${city} yet.`
+        message: `Premium Daab does not deliver to ${area}, ${city} yet.`
       });
     }
 
     if (!serviceArea.is_available) {
       return NextResponse.json({
         available: false,
-        message: `Premium Dab is not available in ${area} yet. We are expanding soon!`
+        message: `Premium Daab is not available in ${area} yet. We are expanding soon!`
       });
     }
 

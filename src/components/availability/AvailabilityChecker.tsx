@@ -191,7 +191,7 @@ export const AvailabilityChecker: React.FC = () => {
                 Coming soon to your area
               </h4>
               <p className="text-base text-amber-800/80 leading-relaxed font-sans max-w-sm">
-                Join the waitlist and we will notify you when Premium Dab reaches your location.
+                Join the waitlist and we will notify you when Premium Daab reaches your location.
               </p>
               <div className="w-full flex flex-col gap-3 mt-2">
                 <Link

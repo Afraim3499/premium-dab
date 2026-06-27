@@ -126,14 +126,14 @@ D:\premium_dab\premium_daab_product_cutout_full_canvas_transparent.png
 D:\premium_dab\menu.png
 → /public/assets/brand/menu-board.png
 
-D:\premium_dab\dab cart.png
-→ /public/assets/events/dab-cart.png
+D:\premium_dab\daab cart.png
+→ /public/assets/events/daab-cart.png
 
-D:\premium_dab\4 dab pack.png
-→ /public/assets/packs/4-dab-pack.png
+D:\premium_dab\4 daab pack.png
+→ /public/assets/packs/4-daab-pack.png
 
-D:\premium_dab\6 dab family pack.png
-→ /public/assets/packs/6-dab-family-pack.png
+D:\premium_dab\6 daab family pack.png
+→ /public/assets/packs/6-daab-family-pack.png
 ```
 
 For v1, do not generate extra website images unless a section cannot work without it. If Antigravity generates any missing image, it must match the Premium Daab visual system: cream background, deep green, restrained gold, clean Bangladeshi premium context, no fake labels, no random text.
@@ -146,8 +146,8 @@ Use the actual assets carefully:
 - Hero: `front-facing-product-hero.png` or `product-main.jpeg`
 - Product cutout: `product-cutout-transparent.png`
 - Brand detail section: `product-label-close-up.png`
-- Cart preview: `dab-cart.png`
-- Pack preview: `4-dab-pack.png` and `6-dab-family-pack.png`
+- Cart preview: `daab-cart.png`
+- Pack preview: `4-daab-pack.png` and `6-daab-family-pack.png`
 
 ### Product / Shop
 - Hero/detail: `product-angled-left.png`, `product-angled-right.png`
@@ -163,8 +163,8 @@ Use the actual assets carefully:
 - Keep this page clean. No heavy visual clutter.
 
 ### Events & Bulk Orders
-- Hero: `dab-cart.png`
-- Packaging: `4-dab-pack.png`, `6-dab-family-pack.png`
+- Hero: `daab-cart.png`
+- Packaging: `4-daab-pack.png`, `6-daab-family-pack.png`
 
 ### Our Story
 - Use product and pack images as brand artifacts. Do not invent farm imagery unless approved.

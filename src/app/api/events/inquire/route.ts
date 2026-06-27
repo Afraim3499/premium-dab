@@ -64,7 +64,7 @@ export async function POST(request: Request) {
 
     // 2. Generate WhatsApp redirection URL
     const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "8801410120299";
-    const whatsappMessage = `Hello Premium Dab! 🥥
+    const whatsappMessage = `Hello Premium Daab! 🥥
 
 I would like to inquire about a bulk/event order. Here are my details:
 

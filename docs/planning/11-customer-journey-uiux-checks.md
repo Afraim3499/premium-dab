@@ -347,7 +347,7 @@ Before publishing:
 
 - Brand name consistent: Premium Daab.
 - Pricing shown correctly.
-- No accidental “Dab” text in typed website copy unless inside provided image assets.
+- No accidental “Daab” text in typed website copy unless inside provided image assets.
 - No exaggerated health claims.
 - No fake partner logos.
 - No unavailable areas shown as available.

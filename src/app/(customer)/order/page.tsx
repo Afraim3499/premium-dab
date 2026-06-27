@@ -4,16 +4,16 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
-  title: "Order Fresh Young Coconut Online via WhatsApp | Premium Dab",
+  title: "Order Fresh Young Coconut Online via WhatsApp | Premium Daab",
   description:
-    "Confirm your Premium Dab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
+    "Confirm your Premium Daab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
   alternates: {
     canonical: "/order",
   },
   openGraph: {
-    title: "Order Fresh Young Coconut Online via WhatsApp | Premium Dab",
+    title: "Order Fresh Young Coconut Online via WhatsApp | Premium Daab",
     description:
-      "Confirm your Premium Dab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
+      "Confirm your Premium Daab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
     url: "/order",
     type: "website",
   },

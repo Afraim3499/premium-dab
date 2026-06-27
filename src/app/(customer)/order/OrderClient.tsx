@@ -398,7 +398,7 @@ function OrderFormContent() {
                   <div className="relative w-20 h-20 rounded-2xl bg-pd-cream-50 border border-pd-border/60 overflow-hidden flex items-center justify-center p-2">
                     <Image
                       src="/assets/premium-daab/product-cutout.webp"
-                      alt="Premium Dab Cutout"
+                      alt="Premium Daab Cutout"
                       fill
                       className="object-contain"
                       sizes="80px"
@@ -408,7 +408,7 @@ function OrderFormContent() {
                   {/* Info and Quantity */}
                   <div className="flex-1 flex flex-col text-left">
                     <span className="font-serif font-bold text-pd-green-900 text-lg leading-snug">
-                      Premium Dab
+                      Premium Daab
                     </span>
                     <span className="text-xs text-pd-muted font-sans font-medium uppercase tracking-wide mt-0.5">
                       Young Coconut

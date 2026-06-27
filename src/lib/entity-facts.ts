@@ -1,7 +1,7 @@
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://premiumdaab.com";
 
 export const brandFacts = {
-  brandName: "Premium Dab",
+  brandName: "Premium Daab",
   alternateName: "Premium Daab",
   country: "Bangladesh",
   primaryArea: "Bashundhara Residential Area, Dhaka",

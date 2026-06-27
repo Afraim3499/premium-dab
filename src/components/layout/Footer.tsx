@@ -14,14 +14,14 @@ export const Footer: React.FC = () => {
             <div className="relative w-12 h-12 rounded-full bg-pd-cream-50 flex items-center justify-center border border-pd-cream-200">
               <Image
                 src="/assets/premium-daab/logo.webp"
-                alt="Premium Dab Logo"
+                alt="Premium Daab Logo"
                 width={36}
                 height={24}
                 className="object-contain"
               />
             </div>
             <span className="font-serif text-2xl font-bold tracking-tight text-pd-cream-50 leading-none">
-              Premium Dab
+              Premium Daab
             </span>
           </Link>
           <p className="text-base leading-relaxed text-pd-cream-100/60 max-w-sm font-sans">
@@ -111,7 +111,7 @@ export const Footer: React.FC = () => {
             100% Natural · Premium Quality · Product of Bangladesh
           </div>
           <div className="text-sm text-pd-cream-100/30 font-sans">
-            &copy; {new Date().getFullYear()} Premium Dab. All rights reserved.
+            &copy; {new Date().getFullYear()} Premium Daab. All rights reserved.
           </div>
         </div>
       </div>

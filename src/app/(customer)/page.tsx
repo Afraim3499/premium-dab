@@ -8,16 +8,16 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
-  title: "Premium Dab — 100% Natural Young Coconut Delivered Fresh",
+  title: "Premium Daab — 100% Natural Young Coconut Delivered Fresh",
   description:
-    "Premium Dab brings fresh young coconut into a clean, premium, ready-to-drink experience for homes, offices, events, and selected delivery areas in Dhaka.",
+    "Premium Daab brings fresh young coconut into a clean, premium, ready-to-drink experience for homes, offices, events, and selected delivery areas in Dhaka.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Premium Dab — 100% Natural Young Coconut Delivered Fresh",
+    title: "Premium Daab — 100% Natural Young Coconut Delivered Fresh",
     description:
-      "Premium Dab brings fresh young coconut into a clean, premium, ready-to-drink experience for homes, offices, events, and selected delivery areas in Dhaka.",
+      "Premium Daab brings fresh young coconut into a clean, premium, ready-to-drink experience for homes, offices, events, and selected delivery areas in Dhaka.",
     url: "/",
     type: "website",
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         url: "/assets/premium-daab/product-cutout.webp",
         width: 600,
         height: 900,
-        alt: "Premium Dab Product Cutout",
+        alt: "Premium Daab Product Cutout",
       },
     ],
   },
@@ -35,14 +35,14 @@ export default function Home() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Premium Dab",
+    "name": "Premium Daab",
     "url": SITE_URL
   };
 
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Premium Dab",
+    "name": "Premium Daab",
     "url": SITE_URL,
     "logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
     "contactPoint": {
@@ -57,7 +57,7 @@ export default function Home() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "FoodEstablishment",
-    "name": "Premium Dab",
+    "name": "Premium Daab",
     "image": `${SITE_URL}/assets/premium-daab/product-cutout.webp`,
     "telephone": "01410120299",
     "url": SITE_URL,
@@ -122,7 +122,7 @@ export default function Home() {
 
             {/* Cinematic headline */}
             <h1 className="animate-hero-rise text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] font-serif text-pd-green-900 leading-[1.04] tracking-tight" style={{ animationDelay: "0.3s" }}>
-              Premium Dab, <br />
+              Premium Daab, <br />
               <span className="italic font-normal text-pd-gold-600 drop-shadow-[0_4px_20px_rgba(198,154,61,0.25)]">beautifully served.</span>
             </h1>
 
@@ -162,7 +162,7 @@ export default function Home() {
             <div className="relative w-[280px] h-[420px] sm:w-[340px] sm:h-[510px] lg:w-[420px] lg:h-[630px] xl:w-[460px] xl:h-[690px] animate-hero-rise" style={{ animationDelay: "0.2s" }}>
               <Image
                 src="/assets/premium-daab/product-cutout.webp"
-                alt="Premium Dab Young Coconut"
+                alt="Premium Daab Young Coconut"
                 fill
                 priority
                 className="object-contain drop-shadow-[0_30px_60px_rgba(11,58,34,0.20)] hover:drop-shadow-[0_40px_80px_rgba(198,154,61,0.25)] transition-all duration-700"
@@ -246,7 +246,7 @@ export default function Home() {
               <div className="relative w-full h-full rounded-[28px] overflow-hidden">
                 <Image
                   src="/assets/premium-daab/product-label-closeup.webp"
-                  alt="Premium Dab Label Detail"
+                  alt="Premium Daab Label Detail"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-w-[440px]) 100vw, 440px"
@@ -264,12 +264,12 @@ export default function Home() {
             </div>
             
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif text-pd-green-900 leading-[1.12]">
-              Dab has always been natural. <br />
+              Daab has always been natural. <br />
               <span className="italic font-normal text-pd-gold-500">We made the experience premium.</span>
             </h2>
             
             <p className="text-base sm:text-lg text-pd-muted leading-relaxed font-sans max-w-xl">
-              Dab is already one of Bangladesh’s most loved natural drinks. Premium Dab improves the experience around it — cleaner handling, better presentation, thoughtful packaging, and a brand that feels ready for homes, offices, rooftops, cafés, gyms, and events.
+              Daab is already one of Bangladesh’s most loved natural drinks. Premium Daab improves the experience around it — cleaner handling, better presentation, thoughtful packaging, and a brand that feels ready for homes, offices, rooftops, cafés, gyms, and events.
             </p>
             
             {/* Small value row */}
@@ -303,7 +303,7 @@ export default function Home() {
           {/* Text and lists */}
           <div className="lg:col-span-7 flex flex-col gap-6 text-left order-2 lg:order-1">
             <h2 className="text-4xl sm:text-5xl font-serif text-pd-green-900 leading-tight">
-              Meet the Premium Dab experience.
+              Meet the Premium Daab experience.
             </h2>
             <p className="text-base sm:text-lg text-pd-muted leading-relaxed font-sans">
               Naturally refreshing, beautifully presented, and served with the care a premium natural product deserves.
@@ -355,7 +355,7 @@ export default function Home() {
             <div className="relative w-full max-w-[360px] aspect-[0.66] transition-transform duration-700 hover:scale-[1.04] group">
               <Image
                 src="/assets/premium-daab/product-cutout.webp"
-                alt="Premium Dab Product Cutout"
+                alt="Premium Daab Product Cutout"
                 fill
                 className="object-contain filter drop-shadow-[0_25px_50px_rgba(198,154,61,0.3)]"
                 sizes="(max-w-[360px]) 100vw, 360px"
@@ -375,11 +375,11 @@ export default function Home() {
           {/* Header instructions */}
           <div className="lg:col-span-6 flex flex-col gap-6 text-left">
             <h2 className="text-4xl sm:text-6xl font-serif text-pd-green-900 leading-[1.12]">
-              Is Premium Dab <br />
+              Is Premium Daab <br />
               <span className="italic font-normal text-pd-gold-500">available near you?</span>
             </h2>
             <p className="text-base sm:text-lg text-pd-muted leading-relaxed font-sans max-w-xl">
-              Premium Dab is currently available in selected areas. Choose your city and area to check delivery availability.
+              Premium Daab is currently available in selected areas. Choose your city and area to check delivery availability.
             </p>
           </div>
 
@@ -539,12 +539,12 @@ export default function Home() {
             </div>
             
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif text-pd-cream-50 leading-[1.12]">
-              A premium dab experience, <br />
+              A premium daab experience, <br />
               <span className="italic font-normal text-pd-gold-500">wherever the moment happens.</span>
             </h2>
             
             <p className="text-base sm:text-lg text-pd-cream-100/60 leading-relaxed font-sans max-w-xl">
-              From pop-up carts to office deliveries and event counters, Premium Dab is built to turn a familiar natural drink into a more polished serving experience.
+              From pop-up carts to office deliveries and event counters, Premium Daab is built to turn a familiar natural drink into a more polished serving experience.
             </p>
             
             <div className="mt-3">
@@ -564,7 +564,7 @@ export default function Home() {
               <div className="relative w-full h-full rounded-[28px] overflow-hidden">
                 <Image
                   src="/assets/premium-daab/cart-coconut.webp"
-                  alt="Premium Dab Event Cart"
+                  alt="Premium Daab Event Cart"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-w-[420px]) 100vw, 420px"
@@ -583,7 +583,7 @@ export default function Home() {
             Freshness, packed for groups.
           </h2>
           <p className="text-base sm:text-lg text-pd-muted leading-relaxed font-sans max-w-xl mx-auto mb-20">
-            Premium Dab pack options are designed for family orders, office refreshment, and small gatherings.
+            Premium Daab pack options are designed for family orders, office refreshment, and small gatherings.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 max-w-5xl mx-auto">
@@ -593,7 +593,7 @@ export default function Home() {
               <div className="relative w-full aspect-[1.33] rounded-2xl overflow-hidden border border-pd-border bg-white shadow-inner">
                 <Image
                   src="/assets/premium-daab/pack-4.webp"
-                  alt="Premium Dab 4 Pack Bundle"
+                  alt="Premium Daab 4 Pack Bundle"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-w-[460px]) 100vw, 460px"
@@ -602,7 +602,7 @@ export default function Home() {
               <div className="flex flex-col gap-4 flex-1">
                 <div>
                   <div className="flex justify-between items-baseline">
-                    <h3 className="font-serif text-3xl font-bold text-pd-green-900">4 Dab Pack</h3>
+                    <h3 className="font-serif text-3xl font-bold text-pd-green-900">4 Daab Pack</h3>
                     <span className="font-sans font-bold text-pd-gold-600 text-4xl drop-shadow-[0_2px_8px_rgba(198,154,61,0.15)]">৳480</span>
                   </div>
                 </div>
@@ -624,7 +624,7 @@ export default function Home() {
               <div className="relative w-full aspect-[1.33] rounded-2xl overflow-hidden border border-pd-border bg-white shadow-inner">
                 <Image
                   src="/assets/premium-daab/pack-6.webp"
-                  alt="Premium Dab 6 Pack Bundle"
+                  alt="Premium Daab 6 Pack Bundle"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-w-[460px]) 100vw, 460px"
@@ -633,7 +633,7 @@ export default function Home() {
               <div className="flex flex-col gap-4 flex-1">
                 <div>
                   <div className="flex justify-between items-baseline">
-                    <h3 className="font-serif text-3xl font-bold text-pd-green-900">6 Dab Family Pack</h3>
+                    <h3 className="font-serif text-3xl font-bold text-pd-green-900">6 Daab Family Pack</h3>
                     <span className="font-sans font-bold text-pd-gold-600 text-4xl drop-shadow-[0_2px_8px_rgba(198,154,61,0.15)]">৳720</span>
                   </div>
                 </div>
@@ -661,7 +661,7 @@ export default function Home() {
         
         <div className="mx-auto max-w-[1280px] px-6 sm:px-12 relative z-10 flex flex-col items-center gap-6">
           <h2 className="text-4xl sm:text-6xl font-serif text-pd-cream-50 leading-tight">
-            Ready to try Premium Dab?
+            Ready to try Premium Daab?
           </h2>
           <p className="text-base sm:text-xl text-pd-cream-100/60 leading-relaxed font-sans max-w-xl mx-auto">
             Check your area, choose your quantity, and place your order online.

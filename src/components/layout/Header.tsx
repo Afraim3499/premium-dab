@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
             <div className="relative w-[60px] h-[40px] flex items-center justify-center">
               <Image
                 src="/assets/premium-daab/logo.webp"
-                alt="Premium Dab Logo"
+                alt="Premium Daab Logo"
                 width={60}
                 height={40}
                 className="object-contain"
@@ -37,7 +37,7 @@ export const Header: React.FC = () => {
               />
             </div>
             <span className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-pd-green-900 leading-none">
-              Premium Dab
+              Premium Daab
             </span>
           </Link>
 
