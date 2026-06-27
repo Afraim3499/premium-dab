@@ -26,13 +26,12 @@ export const Header: React.FC = () => {
         <div className="mx-auto flex h-[88px] max-w-[1280px] items-center justify-between px-6 sm:px-12">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3.5 transition hover:opacity-90">
-            <div className="relative w-[84px] h-[56px] flex items-center justify-center">
+            <div className="relative w-[84px] h-[56px]">
               <Image
                 src="/assets/premium-daab/logo.webp"
                 alt="Premium Daab Logo"
-                width={84}
-                height={56}
-                className="object-contain"
+                fill
+                className="object-contain object-left"
                 priority
               />
             </div>

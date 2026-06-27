@@ -10,19 +10,15 @@ export const Footer: React.FC = () => {
         
         {/* Brand Description Column (4 cols) */}
         <div className="flex flex-col gap-5 lg:col-span-4 text-left">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-[75px] h-[50px] flex items-center justify-center">
+          <Link href="/" className="block w-fit">
+            <div className="relative w-[150px] h-[100px]">
               <Image
                 src="/assets/premium-daab/logo.webp"
                 alt="Premium Daab Logo"
-                width={75}
-                height={50}
-                className="object-contain"
+                fill
+                className="object-contain object-left"
               />
             </div>
-            <span className="font-serif text-2xl font-bold tracking-tight text-pd-cream-50 leading-none">
-              Premium Daab
-            </span>
           </Link>
           <p className="text-base leading-relaxed text-pd-cream-100/60 max-w-sm font-sans">
             A clean, fresh, and hygienically served natural coconut experience for modern Bangladesh.
