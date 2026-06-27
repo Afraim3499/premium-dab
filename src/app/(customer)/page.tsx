@@ -409,7 +409,7 @@ export default function Home() {
             <div className="group rounded-3xl border border-pd-border/70 overflow-hidden bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg text-left flex flex-col">
               <div className="relative w-full h-80 overflow-hidden bg-[#FAF5EB]">
                 <Image
-                  src="/assets/premium-daab/product-angle-left.webp"
+                  src="/assets/premium-daab/moment-morning.png"
                   alt="Morning Refreshment"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-103"
@@ -428,7 +428,7 @@ export default function Home() {
             <div className="group rounded-3xl border border-pd-border/70 overflow-hidden bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg text-left flex flex-col">
               <div className="relative w-full h-80 overflow-hidden bg-[#FAF5EB]">
                 <Image
-                  src="/assets/premium-daab/product-hero.webp"
+                  src="/assets/premium-daab/moment-office.png"
                   alt="Office Break"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-103"
@@ -447,7 +447,7 @@ export default function Home() {
             <div className="group rounded-3xl border border-pd-border/70 overflow-hidden bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg text-left flex flex-col">
               <div className="relative w-full h-80 overflow-hidden bg-[#FAF5EB]">
                 <Image
-                  src="/assets/premium-daab/product-angle-right.webp"
+                  src="/assets/premium-daab/moment-workout.png"
                   alt="Post-Workout Hydration"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-103"
@@ -466,7 +466,7 @@ export default function Home() {
             <div className="group rounded-3xl border border-pd-border/70 overflow-hidden bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg text-left flex flex-col">
               <div className="relative w-full h-80 overflow-hidden bg-[#FAF5EB]">
                 <Image
-                  src="/assets/premium-daab/pack-4.webp"
+                  src="/assets/premium-daab/moment-guest.png"
                   alt="Guest Serving"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-103"
