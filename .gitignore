@@ -42,3 +42,6 @@ next-env.d.ts
 
 # credentials
 /docs/planning/supabase-credentials.txt
+
+# unused assets
+/unused-assets
