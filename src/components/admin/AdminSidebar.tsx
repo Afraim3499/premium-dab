@@ -72,12 +72,12 @@ export const AdminSidebar: React.FC<AdminSidebarProps> = ({ adminUser }) => {
     <aside className="w-[280px] bg-pd-green-900 text-pd-cream-50 flex flex-col h-full border-r border-pd-green-950 flex-shrink-0 z-20 shadow-lg select-none">
       {/* Brand Header */}
       <div className="h-[88px] border-b border-pd-green-800 flex items-center px-6 gap-3">
-        <div className="relative w-10 h-7 flex items-center justify-center bg-white/10 rounded-lg p-1">
+        <div className="relative w-14 h-9 flex items-center justify-center bg-white/10 rounded-lg p-1">
           <Image
             src="/assets/premium-daab/logo.webp"
             alt="Premium Daab Logo"
-            width={36}
-            height={24}
+            width={51}
+            height={34}
             className="object-contain brightness-0 invert"
           />
         </div>

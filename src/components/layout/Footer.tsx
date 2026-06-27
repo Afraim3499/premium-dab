@@ -11,12 +11,12 @@ export const Footer: React.FC = () => {
         {/* Brand Description Column (4 cols) */}
         <div className="flex flex-col gap-5 lg:col-span-4 text-left">
           <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-12 h-12 rounded-full bg-pd-cream-50 flex items-center justify-center border border-pd-cream-200">
+            <div className="relative w-[75px] h-[50px] flex items-center justify-center">
               <Image
                 src="/assets/premium-daab/logo.webp"
                 alt="Premium Daab Logo"
-                width={36}
-                height={24}
+                width={75}
+                height={50}
                 className="object-contain"
               />
             </div>

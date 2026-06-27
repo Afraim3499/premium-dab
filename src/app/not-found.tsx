@@ -11,12 +11,12 @@ export default function NotFound() {
       <div className="relative z-10 w-full max-w-lg bg-white border border-pd-border/80 p-8 sm:p-12 rounded-[32px] shadow-md flex flex-col gap-6 text-center">
         {/* Brand Logo */}
         <div className="flex flex-col items-center gap-4">
-          <div className="relative w-14 h-10 flex items-center justify-center">
+          <div className="relative w-[84px] h-[56px] flex items-center justify-center">
             <Image
               src="/assets/premium-daab/logo.webp"
               alt="Premium Daab Logo"
-              width={60}
-              height={40}
+              width={84}
+              height={56}
               className="object-contain"
             />
           </div>
