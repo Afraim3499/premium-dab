@@ -23,9 +23,9 @@ export default function ProductDetailPage() {
       label: "Right Angle",
     },
     {
-      src: "/assets/premium-daab/product-top-straw.webp",
-      alt: "Premium Daab Top Straw Insertion",
-      label: "Straw Entry",
+      src: "/assets/premium-daab/product-main.webp",
+      alt: "Premium Daab Table View",
+      label: "Table View",
     },
     {
       src: "/assets/premium-daab/product-label-closeup.webp",
@@ -257,7 +257,7 @@ export default function ProductDetailPage() {
             <div className="flex flex-col gap-4 text-left p-6 rounded-2xl hover:bg-pd-cream-50/50 transition">
               <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-pd-cream-100 border border-pd-border/40 mb-2">
                 <Image
-                  src="/assets/premium-daab/product-top-straw.webp"
+                  src="/assets/premium-daab/product-main.webp"
                   alt="Hygienic straw slot"
                   fill
                   className="object-contain p-4"
