@@ -36,6 +36,9 @@ export const metadata: Metadata = {
       "Find answers about Premium Daab sourcing, hygiene, delivery areas in Dhaka, pricing, and bulk orders.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
+  other: {
+    "og:logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+  },
 };
 
 export default function FAQPage() {

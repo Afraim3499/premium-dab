@@ -36,6 +36,9 @@ export const metadata: Metadata = {
       "Check if Premium Daab delivers fresh young coconut to your sector or area in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
+  other: {
+    "og:logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+  },
 };
 
 export default function AvailabilityPage() {

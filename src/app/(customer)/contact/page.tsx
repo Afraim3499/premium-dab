@@ -37,6 +37,9 @@ export const metadata: Metadata = {
       "Get in touch with Premium Daab. Call or WhatsApp 01410120299, or email us at Premiumdaab@gmail.com.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
+  other: {
+    "og:logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+  },
 };
 
 const CONTACT_CARDS = [

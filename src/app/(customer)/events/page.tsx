@@ -36,6 +36,9 @@ export const metadata: Metadata = {
       "Book Premium Daab catering for weddings, corporate events, and parties with custom coconut branding in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
+  other: {
+    "og:logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+  },
 };
 
 export default function EventsPage() {

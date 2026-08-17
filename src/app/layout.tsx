@@ -62,6 +62,9 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
+  other: {
+    "og:logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+  },
 };
 
 export const viewport: Viewport = {

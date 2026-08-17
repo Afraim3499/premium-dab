@@ -37,6 +37,9 @@ export const metadata: Metadata = {
       "Discover how Premium Daab sources, prepares, and delivers fresh young coconuts to homes and offices in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
+  other: {
+    "og:logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+  },
 };
 
 const TIMELINE_STEPS = [

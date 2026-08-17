@@ -40,6 +40,9 @@ export const metadata: Metadata = {
       "Premium Daab delivers fresh, hygienic young coconut water straight to homes, offices, and events in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
+  other: {
+    "og:logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+  },
 };
 
 export default function Home() {

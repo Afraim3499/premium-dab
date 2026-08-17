@@ -36,6 +36,9 @@ export const metadata: Metadata = {
       "Confirm your order details, select your area, and checkout for fresh young coconut delivery in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
+  other: {
+    "og:logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+  },
 };
 
 export default function OrderPage() {

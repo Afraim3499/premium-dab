@@ -36,6 +36,9 @@ export const metadata: Metadata = {
       "Buy Premium Daab young coconuts. 100% raw, natural, and hygienic. Single and multi-pack options available.",
     images: ["/assets/premium-daab/product-hero.webp"],
   },
+  other: {
+    "og:logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+  },
 };
 
 export default function ProductPage() {
