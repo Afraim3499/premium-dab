@@ -63,11 +63,12 @@ export const AvailabilityChecker: React.FC = () => {
       <form onSubmit={handleCheck} className="flex flex-col gap-5">
         {/* City Select */}
         <div className="flex flex-col gap-2 text-left">
-          <label className="text-sm font-semibold tracking-wide uppercase text-pd-green-800 select-none">
+          <label htmlFor="city-select" className="text-sm font-semibold tracking-wide uppercase text-pd-green-800 select-none">
             City
           </label>
           <div className="relative">
             <select
+              id="city-select"
               value={city}
               onChange={(e) => setCity(e.target.value)}
               disabled={isLoading}
@@ -83,11 +84,12 @@ export const AvailabilityChecker: React.FC = () => {
 
         {/* Area Select */}
         <div className="flex flex-col gap-2 text-left">
-          <label className="text-sm font-semibold tracking-wide uppercase text-pd-green-800 select-none">
+          <label htmlFor="area-select" className="text-sm font-semibold tracking-wide uppercase text-pd-green-800 select-none">
             Area
           </label>
           <div className="relative">
             <select
+              id="area-select"
               value={area}
               onChange={(e) => setArea(e.target.value)}
               disabled={isLoading}

@@ -27,9 +27,9 @@ export const Footer: React.FC = () => {
 
         {/* Shop Column (2 cols) */}
         <div className="flex flex-col gap-4 lg:col-span-2 text-left">
-          <h4 className="text-sm font-bold tracking-widest uppercase text-pd-gold-500 font-sans">
+          <p className="text-sm font-bold tracking-widest uppercase text-pd-gold-500 font-sans">
             Shop Flow
-          </h4>
+          </p>
           <nav className="flex flex-col gap-3">
             <Link href="/" className="text-base hover:text-pd-cream-50 transition duration-150">
               Home
@@ -48,9 +48,9 @@ export const Footer: React.FC = () => {
 
         {/* Company Column (2 cols) */}
         <div className="flex flex-col gap-4 lg:col-span-2 text-left">
-          <h4 className="text-sm font-bold tracking-widest uppercase text-pd-gold-500 font-sans">
+          <p className="text-sm font-bold tracking-widest uppercase text-pd-gold-500 font-sans">
             Company
-          </h4>
+          </p>
           <nav className="flex flex-col gap-3">
             <Link href="/our-story" className="text-base hover:text-pd-cream-50 transition duration-150">
               Our Story
@@ -69,12 +69,12 @@ export const Footer: React.FC = () => {
 
         {/* Contact/Support Column (4 cols) */}
         <div className="flex flex-col gap-4 lg:col-span-4 text-left">
-          <h4 className="text-sm font-bold tracking-widest uppercase text-pd-gold-500 font-sans">
+          <p className="text-sm font-bold tracking-widest uppercase text-pd-gold-500 font-sans">
             Get in Touch
-          </h4>
+          </p>
           <div className="flex flex-col gap-3.5 text-base font-sans">
             <p className="flex items-center gap-2">
-              <span className="text-pd-cream-100/40">Phone / WA:</span>
+              <span className="text-pd-cream-100/70">Phone / WA:</span>
               <a
                 href="https://wa.me/8801410120299"
                 target="_blank"
@@ -85,7 +85,7 @@ export const Footer: React.FC = () => {
               </a>
             </p>
             <p className="flex items-center gap-2">
-              <span className="text-pd-cream-100/40">Email:</span>
+              <span className="text-pd-cream-100/70">Email:</span>
               <a
                 href="mailto:Premiumdaab@gmail.com"
                 className="hover:text-pd-cream-50 transition font-medium"
@@ -93,7 +93,7 @@ export const Footer: React.FC = () => {
                 Premiumdaab@gmail.com
               </a>
             </p>
-            <p className="text-sm text-pd-cream-100/40 leading-relaxed mt-2 border-t border-pd-green-900 pt-3">
+            <p className="text-sm text-pd-cream-100/70 leading-relaxed mt-2 border-t border-pd-green-900 pt-3">
               Service area: Bashundhara Residential Area, Dhaka, Bangladesh.
             </p>
           </div>
@@ -106,7 +106,7 @@ export const Footer: React.FC = () => {
           <div className="font-serif text-base font-semibold tracking-wider text-pd-gold-500">
             100% Natural · Premium Quality · Product of Bangladesh
           </div>
-          <div className="text-sm text-pd-cream-100/30 font-sans">
+          <div className="text-sm text-pd-cream-100/60 font-sans">
             &copy; {new Date().getFullYear()} Premium Daab. All rights reserved.
           </div>
         </div>

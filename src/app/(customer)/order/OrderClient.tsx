@@ -282,10 +282,11 @@ function OrderFormContent() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 {/* City */}
                 <div className="flex flex-col gap-1.5 text-left">
-                  <label className="text-sm font-medium text-pd-text select-none">
+                  <label htmlFor="order-city-select" className="text-sm font-medium text-pd-text select-none">
                     City
                   </label>
                   <select
+                    id="order-city-select"
                     value={city}
                     disabled
                     className="flex h-12 w-full rounded-xl border border-pd-border bg-pd-cream-50/50 px-4 text-base font-medium outline-none opacity-80 cursor-not-allowed select-none"
@@ -296,7 +297,7 @@ function OrderFormContent() {
 
                 {/* Area Selector */}
                 <div className="flex flex-col gap-1.5 text-left">
-                  <label className="text-sm font-medium text-pd-text select-none">
+                  <label htmlFor="order-area-select" className="text-sm font-medium text-pd-text select-none">
                     Delivery Area
                   </label>
                   {isLoadingAreas ? (
@@ -306,6 +307,7 @@ function OrderFormContent() {
                   ) : (
                     <div className="relative">
                       <select
+                        id="order-area-select"
                         name="area"
                         value={area}
                         onChange={(e) => setArea(e.target.value)}
