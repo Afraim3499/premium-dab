@@ -4,6 +4,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Premium Young Coconut — Raw, Natural & Untouched | Premium Daab",
   description:
     "Purchase Premium Daab young coconuts. 100% natural, hygienic handling, zero sugar added, zero preservatives. Standard single orders and multi-pack options available.",

@@ -1,4 +1,6 @@
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://premiumdaab.com";
+export const SITE_URL = process.env.NODE_ENV === "production"
+  ? "https://www.premiumdaab.com"
+  : (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000");
 
 export const brandFacts = {
   brandName: "Premium Daab",

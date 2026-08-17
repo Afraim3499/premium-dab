@@ -4,6 +4,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Frequently Asked Questions — Natural Coconut Water | Premium Daab",
   description:
     "Got questions about Premium Daab's sourcing, hygiene, sugar content, delivery areas (including Bashundhara R/A), or pricing? Get direct answers here.",
@@ -16,6 +17,21 @@ export const metadata: Metadata = {
       "Got questions about Premium Daab's sourcing, hygiene, sugar content, delivery areas (including Bashundhara R/A), or pricing? Get direct answers here.",
     url: "/faq",
     type: "website",
+    images: [
+      {
+        url: "/assets/premium-daab/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Frequently Asked Questions — Natural Coconut Water | Premium Daab",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frequently Asked Questions — Natural Coconut Water | Premium Daab",
+    description:
+      "Got questions about Premium Daab's sourcing, hygiene, sugar content, delivery areas (including Bashundhara R/A), or pricing? Get direct answers here.",
+    images: ["/assets/premium-daab/og-image.webp"],
   },
 };
 

@@ -5,6 +5,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Our Sourcing & Freshness Commitment | Premium Daab",
   description:
     "Learn how Premium Daab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh to Bashundhara R/A and Dhaka.",
@@ -17,6 +18,21 @@ export const metadata: Metadata = {
       "Learn how Premium Daab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh.",
     url: "/our-story",
     type: "website",
+    images: [
+      {
+        url: "/assets/premium-daab/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Our Sourcing & Freshness Commitment | Premium Daab",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Sourcing & Freshness Commitment | Premium Daab",
+    description:
+      "Learn how Premium Daab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh.",
+    images: ["/assets/premium-daab/og-image.webp"],
   },
 };
 

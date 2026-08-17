@@ -4,6 +4,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Order Fresh Young Coconut Online via WhatsApp | Premium Daab",
   description:
     "Confirm your Premium Daab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
@@ -16,6 +17,21 @@ export const metadata: Metadata = {
       "Confirm your Premium Daab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
     url: "/order",
     type: "website",
+    images: [
+      {
+        url: "/assets/premium-daab/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Order Fresh Young Coconut Online via WhatsApp | Premium Daab",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Order Fresh Young Coconut Online via WhatsApp | Premium Daab",
+    description:
+      "Confirm your Premium Daab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
+    images: ["/assets/premium-daab/og-image.webp"],
   },
 };
 

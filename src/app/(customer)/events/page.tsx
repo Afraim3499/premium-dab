@@ -4,6 +4,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Corporate Catering & Bulk Event Young Coconut | Premium Daab",
   description:
     "Book Premium Daab for weddings, corporate refreshments, and social events in Dhaka. Clean, hygienic, premium young coconut bar setup for your guests.",
@@ -16,6 +17,21 @@ export const metadata: Metadata = {
       "Book Premium Daab for weddings, corporate refreshments, and social events in Dhaka. Clean, hygienic, premium young coconut bar setup for your guests.",
     url: "/events",
     type: "website",
+    images: [
+      {
+        url: "/assets/premium-daab/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Corporate Catering & Bulk Event Young Coconut | Premium Daab",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Corporate Catering & Bulk Event Young Coconut | Premium Daab",
+    description:
+      "Book Premium Daab for weddings, corporate refreshments, and social events in Dhaka. Clean, hygienic, premium young coconut bar setup for your guests.",
+    images: ["/assets/premium-daab/og-image.webp"],
   },
 };
 

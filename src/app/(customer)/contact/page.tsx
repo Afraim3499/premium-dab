@@ -5,6 +5,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/entity-facts";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
   description:
     "Get in touch with the Premium Daab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com, or check delivery coverage.",
@@ -17,6 +18,21 @@ export const metadata: Metadata = {
       "Get in touch with the Premium Daab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com.",
     url: "/contact",
     type: "website",
+    images: [
+      {
+        url: "/assets/premium-daab/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
+    description:
+      "Get in touch with the Premium Daab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com.",
+    images: ["/assets/premium-daab/og-image.webp"],
   },
 };
 
