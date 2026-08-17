@@ -44,6 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@premiumdaab",
     title: "Premium Daab — 100% Natural Young Coconut Delivered Fresh",
     description:
       "Premium Daab brings a clean, fresh, and hygienic young coconut experience to modern Bangladesh. Check delivery availability and order fresh young coconut straight to your home or office.",
@@ -52,6 +53,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
@@ -63,6 +65,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
+  themeColor: "#0B3A22",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,

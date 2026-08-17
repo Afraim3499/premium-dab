@@ -7,15 +7,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Frequently Asked Questions — Natural Coconut Water | Premium Daab",
   description:
-    "Got questions about Premium Daab's sourcing, hygiene, sugar content, delivery areas (including Bashundhara R/A), or pricing? Get direct answers here.",
+    "Find answers about Premium Daab sourcing, hygiene, delivery areas in Dhaka, pricing, and bulk orders.",
   alternates: {
     canonical: "/faq",
   },
   openGraph: {
     title: "Frequently Asked Questions — Natural Coconut Water | Premium Daab",
     description:
-      "Got questions about Premium Daab's sourcing, hygiene, sugar content, delivery areas (including Bashundhara R/A), or pricing? Get direct answers here.",
+      "Find answers about Premium Daab sourcing, hygiene, delivery areas in Dhaka, pricing, and bulk orders.",
     url: "/faq",
+    siteName: "Premium Daab",
+    locale: "en_US",
     type: "website",
     images: [
       {
@@ -28,9 +30,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@premiumdaab",
     title: "Frequently Asked Questions — Natural Coconut Water | Premium Daab",
     description:
-      "Got questions about Premium Daab's sourcing, hygiene, sugar content, delivery areas (including Bashundhara R/A), or pricing? Get direct answers here.",
+      "Find answers about Premium Daab sourcing, hygiene, delivery areas in Dhaka, pricing, and bulk orders.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
 };

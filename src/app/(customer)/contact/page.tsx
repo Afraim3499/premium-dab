@@ -8,15 +8,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
   description:
-    "Get in touch with the Premium Daab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com, or check delivery coverage.",
+    "Get in touch with Premium Daab. Call or WhatsApp 01410120299, or email us at Premiumdaab@gmail.com.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
     title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
     description:
-      "Get in touch with the Premium Daab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com.",
+      "Get in touch with Premium Daab. Call or WhatsApp 01410120299, or email us at Premiumdaab@gmail.com.",
     url: "/contact",
+    siteName: "Premium Daab",
+    locale: "en_US",
     type: "website",
     images: [
       {
@@ -29,9 +31,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@premiumdaab",
     title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
     description:
-      "Get in touch with the Premium Daab team. Phone/WhatsApp support at 01410120299, email at Premiumdaab@gmail.com.",
+      "Get in touch with Premium Daab. Call or WhatsApp 01410120299, or email us at Premiumdaab@gmail.com.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
 };

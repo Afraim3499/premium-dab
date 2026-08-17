@@ -11,15 +11,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Premium Daab — 100% Natural Young Coconut Delivered Fresh",
   description:
-    "Premium Daab brings fresh young coconut into a clean, premium, ready-to-drink experience for homes, offices, events, and selected delivery areas in Dhaka.",
+    "Premium Daab delivers fresh, hygienic young coconut water straight to homes, offices, and events in Dhaka.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Premium Daab — 100% Natural Young Coconut Delivered Fresh",
     description:
-      "Premium Daab brings fresh young coconut into a clean, premium, ready-to-drink experience for homes, offices, events, and selected delivery areas in Dhaka.",
+      "Premium Daab delivers fresh, hygienic young coconut water straight to homes, offices, and events in Dhaka.",
     url: "/",
+    siteName: "Premium Daab",
+    locale: "en_US",
     type: "website",
     images: [
       {
@@ -32,9 +34,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@premiumdaab",
     title: "Premium Daab — 100% Natural Young Coconut Delivered Fresh",
     description:
-      "Premium Daab brings fresh young coconut into a clean, premium, ready-to-drink experience for homes, offices, events, and selected delivery areas in Dhaka.",
+      "Premium Daab delivers fresh, hygienic young coconut water straight to homes, offices, and events in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
 };

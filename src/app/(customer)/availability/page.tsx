@@ -7,15 +7,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Check Delivery Availability — Bashundhara R/A & Dhaka | Premium Daab",
   description:
-    "Verify if Premium Daab delivers to your location in Dhaka. Serving Bashundhara Residential Area, Gulshan, Banani, and more with fresh young coconut delivery.",
+    "Check if Premium Daab delivers fresh young coconut to your sector or area in Dhaka.",
   alternates: {
     canonical: "/availability",
   },
   openGraph: {
     title: "Check Delivery Availability — Bashundhara R/A & Dhaka | Premium Daab",
     description:
-      "Verify if Premium Daab delivers to your location in Dhaka. Serving Bashundhara Residential Area, Gulshan, Banani, and more.",
+      "Check if Premium Daab delivers fresh young coconut to your sector or area in Dhaka.",
     url: "/availability",
+    siteName: "Premium Daab",
+    locale: "en_US",
     type: "website",
     images: [
       {
@@ -28,9 +30,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@premiumdaab",
     title: "Check Delivery Availability — Bashundhara R/A & Dhaka | Premium Daab",
     description:
-      "Verify if Premium Daab delivers to your location in Dhaka. Serving Bashundhara Residential Area, Gulshan, Banani, and more.",
+      "Check if Premium Daab delivers fresh young coconut to your sector or area in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
 };

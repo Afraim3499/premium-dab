@@ -7,15 +7,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Premium Young Coconut — Raw, Natural & Untouched | Premium Daab",
   description:
-    "Purchase Premium Daab young coconuts. 100% natural, hygienic handling, zero sugar added, zero preservatives. Standard single orders and multi-pack options available.",
+    "Buy Premium Daab young coconuts. 100% raw, natural, and hygienic. Single and multi-pack options available.",
   alternates: {
     canonical: "/product",
   },
   openGraph: {
     title: "Premium Young Coconut — Raw, Natural & Untouched | Premium Daab",
     description:
-      "Purchase Premium Daab young coconuts. 100% natural, hygienic handling, zero sugar added, zero preservatives.",
+      "Buy Premium Daab young coconuts. 100% raw, natural, and hygienic. Single and multi-pack options available.",
     url: "/product",
+    siteName: "Premium Daab",
+    locale: "en_US",
     type: "website",
     images: [
       {
@@ -25,6 +27,14 @@ export const metadata: Metadata = {
         alt: "Premium Daab Young Coconut Single Unit",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@premiumdaab",
+    title: "Premium Young Coconut — Raw, Natural & Untouched | Premium Daab",
+    description:
+      "Buy Premium Daab young coconuts. 100% raw, natural, and hygienic. Single and multi-pack options available.",
+    images: ["/assets/premium-daab/product-hero.webp"],
   },
 };
 

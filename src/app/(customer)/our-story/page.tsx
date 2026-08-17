@@ -8,15 +8,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Our Sourcing & Freshness Commitment | Premium Daab",
   description:
-    "Learn how Premium Daab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh to Bashundhara R/A and Dhaka.",
+    "Discover how Premium Daab sources, prepares, and delivers fresh young coconuts to homes and offices in Dhaka.",
   alternates: {
     canonical: "/our-story",
   },
   openGraph: {
     title: "Our Sourcing & Freshness Commitment | Premium Daab",
     description:
-      "Learn how Premium Daab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh.",
+      "Discover how Premium Daab sources, prepares, and delivers fresh young coconuts to homes and offices in Dhaka.",
     url: "/our-story",
+    siteName: "Premium Daab",
+    locale: "en_US",
     type: "website",
     images: [
       {
@@ -29,9 +31,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@premiumdaab",
     title: "Our Sourcing & Freshness Commitment | Premium Daab",
     description:
-      "Learn how Premium Daab sources young coconuts from local orchards in Bangladesh, cleans them in our sorting hub, and delivers them fresh.",
+      "Discover how Premium Daab sources, prepares, and delivers fresh young coconuts to homes and offices in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
 };

@@ -7,15 +7,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Order Fresh Young Coconut Online via WhatsApp | Premium Daab",
   description:
-    "Confirm your Premium Daab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
+    "Confirm your order details, select your area, and checkout for fresh young coconut delivery in Dhaka.",
   alternates: {
     canonical: "/order",
   },
   openGraph: {
     title: "Order Fresh Young Coconut Online via WhatsApp | Premium Daab",
     description:
-      "Confirm your Premium Daab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
+      "Confirm your order details, select your area, and checkout for fresh young coconut delivery in Dhaka.",
     url: "/order",
+    siteName: "Premium Daab",
+    locale: "en_US",
     type: "website",
     images: [
       {
@@ -28,9 +30,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@premiumdaab",
     title: "Order Fresh Young Coconut Online via WhatsApp | Premium Daab",
     description:
-      "Confirm your Premium Daab order details, select your delivery area, and complete checkout. Fast WhatsApp redirected order confirmation in Dhaka.",
+      "Confirm your order details, select your area, and checkout for fresh young coconut delivery in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
 };

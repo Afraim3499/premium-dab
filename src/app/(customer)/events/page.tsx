@@ -7,15 +7,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Corporate Catering & Bulk Event Young Coconut | Premium Daab",
   description:
-    "Book Premium Daab for weddings, corporate refreshments, and social events in Dhaka. Clean, hygienic, premium young coconut bar setup for your guests.",
+    "Book Premium Daab catering for weddings, corporate events, and parties with custom coconut branding in Dhaka.",
   alternates: {
     canonical: "/events",
   },
   openGraph: {
     title: "Corporate Catering & Bulk Event Young Coconut | Premium Daab",
     description:
-      "Book Premium Daab for weddings, corporate refreshments, and social events in Dhaka. Clean, hygienic, premium young coconut bar setup for your guests.",
+      "Book Premium Daab catering for weddings, corporate events, and parties with custom coconut branding in Dhaka.",
     url: "/events",
+    siteName: "Premium Daab",
+    locale: "en_US",
     type: "website",
     images: [
       {
@@ -28,9 +30,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@premiumdaab",
     title: "Corporate Catering & Bulk Event Young Coconut | Premium Daab",
     description:
-      "Book Premium Daab for weddings, corporate refreshments, and social events in Dhaka. Clean, hygienic, premium young coconut bar setup for your guests.",
+      "Book Premium Daab catering for weddings, corporate events, and parties with custom coconut branding in Dhaka.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
 };
