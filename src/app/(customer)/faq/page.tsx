@@ -105,12 +105,12 @@ export default function FAQPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": SITE_URL
+        "item": `${SITE_URL}/`
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "FAQ",
+        "name": "Frequently Asked Questions",
         "item": `${SITE_URL}/faq`
       }
     ]

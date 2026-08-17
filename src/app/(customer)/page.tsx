@@ -50,14 +50,14 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Premium Daab",
-    "url": SITE_URL
+    "url": `${SITE_URL}/`
   };
 
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Premium Daab",
-    "url": SITE_URL,
+    "url": `${SITE_URL}/`,
     "logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
     "contactPoint": {
       "@type": "ContactPoint",
@@ -74,7 +74,7 @@ export default function Home() {
     "name": "Premium Daab",
     "image": `${SITE_URL}/assets/premium-daab/product-cutout.webp`,
     "telephone": "01410120299",
-    "url": SITE_URL,
+    "url": `${SITE_URL}/`,
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",

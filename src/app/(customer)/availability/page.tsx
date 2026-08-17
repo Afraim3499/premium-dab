@@ -50,12 +50,12 @@ export default function AvailabilityPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": SITE_URL
+        "item": `${SITE_URL}/`
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Availability",
+        "name": "Delivery Availability",
         "item": `${SITE_URL}/availability`
       }
     ]

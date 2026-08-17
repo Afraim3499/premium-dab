@@ -50,12 +50,12 @@ export default function OrderPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": SITE_URL
+        "item": `${SITE_URL}/`
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Order",
+        "name": "Order Checkout",
         "item": `${SITE_URL}/order`
       }
     ]

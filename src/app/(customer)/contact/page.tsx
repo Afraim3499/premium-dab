@@ -90,12 +90,12 @@ export default function ContactPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": SITE_URL
+        "item": `${SITE_URL}/`
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Contact",
+        "name": "Contact Us",
         "item": `${SITE_URL}/contact`
       }
     ]
