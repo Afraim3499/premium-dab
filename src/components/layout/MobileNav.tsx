@@ -85,7 +85,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({ isOpen, onClose, links, pa
             Check Availability
           </Link>
           <a
-            href="https://wa.me/8801410120299"
+            href="https://wa.me/8801338776699"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-[#25D366] px-5 text-sm font-medium text-white transition hover:bg-[#20ba5a]"

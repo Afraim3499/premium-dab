@@ -23,7 +23,7 @@ const FAQ_ITEMS = [
   {
     category: "Delivery",
     question: "Where is Premium Daab delivery available in Dhaka?",
-    answer: "Currently, our primary delivery operations are active in Bashundhara Residential Area. We are expanding coverage to Gulshan, Banani, Dhanmondi, and Uttara soon. You can verify coverage for your specific sector or block on our Availability page.",
+    answer: "We actively deliver to Bashundhara Residential Area, Dhanmondi, Mohammadpur, and Uttara. We also have a physical Daab Cart at Rd 10/A, Dhanmondi, Dhaka 1205. You can verify coverage for your specific block or sector on our Availability page.",
   },
   {
     category: "Product",
@@ -169,7 +169,7 @@ export default function FAQPage() {
             We are here to help. Reach out directly on WhatsApp to speak with a guest relations representative immediately.
           </p>
           <a
-            href="https://wa.me/8801410120299?text=Hello%20Premium%20Dab!%20I%20have%20a%20question..."
+            href="https://wa.me/8801338776699?text=Hello%20Premium%20Daab!%20I%20have%20a%20question..."
             target="_blank"
             rel="noopener noreferrer"
             className="h-11 px-6 bg-pd-green-900 hover:bg-pd-green-800 text-white font-semibold rounded-xl flex items-center justify-center gap-2 shadow-sm text-sm border-0 transition-colors mt-2"

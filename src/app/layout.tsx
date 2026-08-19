@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       "Premium Daab brings a clean, fresh, and hygienic young coconut experience to modern Bangladesh. Check delivery availability and order fresh young coconut straight to your home or office.",
     url: "/",
     siteName: "Premium Daab",
-    locale: "en_US",
+    locale: "bn_BD",
     type: "website",
     images: [
       {
@@ -81,7 +81,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="bn"
       className={`${inter.variable} ${cormorant.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">

@@ -225,9 +225,14 @@ async function run() {
         ('Dhaka', 'Bashundhara R/A', true, 40, '2–4 hours', 1),
         ('Dhaka', 'Gulshan', false, 60, 'Coming soon', 2),
         ('Dhaka', 'Banani', false, 60, 'Coming soon', 3),
-        ('Dhaka', 'Dhanmondi', false, 70, 'Coming soon', 4),
-        ('Dhaka', 'Uttara', false, 70, 'Coming soon', 5)
-      ON CONFLICT (city, area) DO NOTHING;
+        ('Dhaka', 'Dhanmondi', true, 40, '1–2 hours', 4),
+        ('Dhaka', 'Uttara', true, 70, '3–4 hours', 5),
+        ('Dhaka', 'Mohammadpur', false, 50, 'Coming soon', 6)
+      ON CONFLICT (city, area) DO UPDATE SET
+        is_available = EXCLUDED.is_available,
+        delivery_charge_bdt = EXCLUDED.delivery_charge_bdt,
+        estimated_delivery_text = EXCLUDED.estimated_delivery_text,
+        sort_order = EXCLUDED.sort_order;
     `);
 
     console.log('Initial seed data applied.');

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Premium Daab delivers fresh, hygienic young coconut water straight to homes, offices, and events in Dhaka.",
     url: "/",
     siteName: "Premium Daab",
-    locale: "en_US",
+    locale: "bn_BD",
     type: "website",
     images: [
       {
@@ -49,19 +49,33 @@ export default function Home() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
     "name": "Premium Daab",
-    "url": `${SITE_URL}/`
+    "url": `${SITE_URL}/`,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${SITE_URL}/availability?area={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
   };
 
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
     "name": "Premium Daab",
     "url": `${SITE_URL}/`,
     "logo": `${SITE_URL}/assets/premium-daab/logo.webp`,
+    "sameAs": [
+      "https://www.facebook.com/premiumdaab",
+      "https://www.instagram.com/premiumdaab"
+    ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+8801410120299",
+      "telephone": "+8801338776699",
       "contactType": "customer service",
       "email": "Premiumdaab@gmail.com",
       "availableLanguage": ["English", "Bengali"]
@@ -70,35 +84,50 @@ export default function Home() {
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "FoodEstablishment",
-    "name": "Premium Daab",
-    "image": `${SITE_URL}/assets/premium-daab/product-cutout.webp`,
-    "telephone": "01410120299",
+    "@type": ["LocalBusiness", "FoodEstablishment"],
+    "@id": `${SITE_URL}/#dhanmondi-cart`,
+    "name": "Premium Daab - Dhanmondi Cart",
+    "image": `${SITE_URL}/assets/premium-daab/cart-coconut.webp`,
+    "telephone": "01338776699",
     "url": `${SITE_URL}/`,
-    "priceRange": "$$",
+    "priceRange": "৳৳",
+    "servesCuisine": "Fresh Young Coconut",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Premium Daab Products",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Premium Young Coconut (Single)" }, "price": "120", "priceCurrency": "BDT" },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "4-Pack Daab" }, "price": "480", "priceCurrency": "BDT" },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "6-Pack Family Daab" }, "price": "720", "priceCurrency": "BDT" }
+      ]
+    },
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Dhaka",
-      "addressRegion": "Dhaka Division",
+      "streetAddress": "Rd 10/A",
+      "addressLocality": "Dhanmondi, Dhaka",
+      "postalCode": "1205",
       "addressCountry": "BD"
     },
     "geo": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": 23.8161,
-        "longitude": 90.4260
-      },
-      "geoRadius": "5000"
+      "@type": "GeoCoordinates",
+      "latitude": 23.7461,
+      "longitude": 90.3750
     },
     "areaServed": [
       "Bashundhara Residential Area",
-      "Gulshan",
-      "Banani",
       "Dhanmondi",
       "Uttara",
       "Dhaka"
-    ]
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "10:00",
+      "closes": "20:00"
+    },
+    "parentOrganization": {
+      "@id": `${SITE_URL}/#organization`
+    }
   };
 
   return (

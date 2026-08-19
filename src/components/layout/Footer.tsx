@@ -35,13 +35,13 @@ export const Footer: React.FC = () => {
               Home
             </Link>
             <Link href="/product" className="text-base hover:text-pd-cream-50 transition duration-150">
-              Product
+              Premium Young Coconut
             </Link>
             <Link href="/availability" className="text-base hover:text-pd-cream-50 transition duration-150">
-              Check Availability
+              Daab Delivery in Dhaka
             </Link>
             <Link href="/order" className="text-base hover:text-pd-cream-50 transition duration-150">
-              Place Order
+              Order Daab Online
             </Link>
           </nav>
         </div>
@@ -57,6 +57,9 @@ export const Footer: React.FC = () => {
             </Link>
             <Link href="/events" className="text-base hover:text-pd-cream-50 transition duration-150">
               Events & Bulk Orders
+            </Link>
+            <Link href="/blog" className="text-base hover:text-pd-cream-50 transition duration-150">
+              ব্লগ (Blog)
             </Link>
             <Link href="/faq" className="text-base hover:text-pd-cream-50 transition duration-150">
               FAQ
@@ -76,12 +79,12 @@ export const Footer: React.FC = () => {
             <p className="flex items-center gap-2">
               <span className="text-pd-cream-100/70">Phone / WA:</span>
               <a
-                href="https://wa.me/8801410120299"
+                href="https://wa.me/8801338776699"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pd-cream-50 transition font-semibold"
               >
-                01410120299
+                01338776699
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -93,8 +96,9 @@ export const Footer: React.FC = () => {
                 Premiumdaab@gmail.com
               </a>
             </p>
-            <p className="text-sm text-pd-cream-100/70 leading-relaxed mt-2 border-t border-pd-green-900 pt-3">
-              Service area: Bashundhara Residential Area, Dhaka, Bangladesh.
+            <p className="text-sm text-pd-cream-100/60 leading-relaxed mt-2 border-t border-pd-green-900 pt-3">
+              Delivery zones: Bashundhara R/A, Dhanmondi, Mohammadpur, Uttara.<br />
+              Dhanmondi Cart: Rd 10/A, Dhanmondi, Dhaka 1205.
             </p>
           </div>
         </div>

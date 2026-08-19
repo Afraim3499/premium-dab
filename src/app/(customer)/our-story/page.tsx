@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Discover how Premium Daab sources, prepares, and delivers fresh young coconuts to homes and offices in Dhaka.",
     url: "/our-story",
     siteName: "Premium Daab",
-    locale: "en_US",
+    locale: "bn_BD",
     type: "website",
     images: [
       {
@@ -66,6 +66,18 @@ const TIMELINE_STEPS = [
 ];
 
 export default function OurStoryPage() {
+  const aboutPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": `${SITE_URL}/our-story#about`,
+    "name": "About Premium Daab",
+    "description": "Premium Daab is a Dhaka-based brand delivering fresh, hygienically prepared young coconuts (daab) to homes, offices, and events across selected areas including Bashundhara Residential Area, Dhanmondi, and Uttara.",
+    "url": `${SITE_URL}/our-story`,
+    "isPartOf": { "@id": `${SITE_URL}/#website` },
+    "about": { "@id": `${SITE_URL}/#organization` },
+    "inLanguage": "en"
+  };
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -87,6 +99,7 @@ export default function OurStoryPage() {
 
   return (
     <>
+      <JsonLd data={aboutPageSchema} />
       <JsonLd data={breadcrumbSchema} />
       <div className="flex-1 bg-pd-cream-50 font-sans antialiased pb-24">
       {/* 1. Narrative Hero */}

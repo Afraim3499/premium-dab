@@ -75,7 +75,7 @@ export default function FAQPage() {
         "name": "Where is Premium Daab delivery available in Dhaka?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Currently, our primary delivery operations are active in Bashundhara Residential Area. We are expanding coverage to Gulshan, Banani, Dhanmondi, and Uttara soon. You can verify coverage for your specific sector or block on our Availability page."
+          "text": "We actively deliver to Bashundhara Residential Area, Dhanmondi, Mohammadpur, and Uttara. We also have a physical Daab Cart at Rd 10/A, Dhanmondi, Dhaka 1205. You can verify coverage for your specific block or sector on our Availability page."
         }
       },
       {

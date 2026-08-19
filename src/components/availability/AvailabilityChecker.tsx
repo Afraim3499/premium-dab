@@ -17,7 +17,7 @@ export const AvailabilityChecker: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [result, setResult] = useState<AvailabilityResponse | null>(null);
 
-  const areas = ["Bashundhara R/A", "Gulshan", "Banani", "Dhanmondi", "Uttara"];
+  const areas = ["Bashundhara R/A", "Gulshan", "Banani", "Dhanmondi", "Mohammadpur", "Uttara"];
 
   const handleCheck = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -57,7 +57,7 @@ export const AvailabilityChecker: React.FC = () => {
         Select Delivery Area
       </h3>
       <p className="text-sm text-pd-muted text-center mb-8 font-sans leading-relaxed">
-        Actively delivering to Bashundhara Residential Area. Expanding to Gulshan, Banani, Dhanmondi, and Uttara soon. Select your area below to verify.
+        Actively delivering to Bashundhara R/A, Dhanmondi, Mohammadpur, and Uttara. Select your area below to verify.
       </p>
 
       <form onSubmit={handleCheck} className="flex flex-col gap-5">

@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
   description:
-    "Get in touch with Premium Daab. Call or WhatsApp 01410120299, or email us at Premiumdaab@gmail.com.",
+    "Get in touch with Premium Daab. Call or WhatsApp 01338776699, or email us at Premiumdaab@gmail.com.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
     title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
     description:
-      "Get in touch with Premium Daab. Call or WhatsApp 01410120299, or email us at Premiumdaab@gmail.com.",
+      "Get in touch with Premium Daab. Call or WhatsApp 01338776699, or email us at Premiumdaab@gmail.com.",
     url: "/contact",
     siteName: "Premium Daab",
     locale: "en_US",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     site: "@premiumdaab",
     title: "Contact Premium Daab — Phone, WhatsApp & Support | Premium Daab",
     description:
-      "Get in touch with Premium Daab. Call or WhatsApp 01410120299, or email us at Premiumdaab@gmail.com.",
+      "Get in touch with Premium Daab. Call or WhatsApp 01338776699, or email us at Premiumdaab@gmail.com.",
     images: ["/assets/premium-daab/og-image.webp"],
   },
   other: {
@@ -45,10 +45,10 @@ export const metadata: Metadata = {
 const CONTACT_CARDS = [
   {
     title: "WhatsApp Channel",
-    value: "+880 1410-120299",
+    value: "+880 1338-776699",
     description: "Fast-track your orders, send digital payments screenshot, or chat directly with our guest relations team.",
     linkText: "Start Chatting",
-    href: "https://wa.me/8801410120299?text=Hello%20Premium%20Dab!%20I%20have%20an%20inquiry.",
+    href: "https://wa.me/8801338776699?text=Hello%20Premium%20Daab!%20I%20have%20an%20inquiry.",
     icon: (
       <svg className="w-6 h-6 text-pd-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
@@ -57,13 +57,26 @@ const CONTACT_CARDS = [
   },
   {
     title: "Voice Support",
-    value: "01410120299",
+    value: "01338776699",
     description: "Available from 10:00 AM to 8:00 PM daily. Call us for urgent order modifications or group reservations.",
     linkText: "Call Now",
-    href: "tel:01410120299",
+    href: "tel:01338776699",
     icon: (
       <svg className="w-6 h-6 text-pd-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Dhanmondi Daab Cart",
+    value: "Rd 10/A, Dhanmondi",
+    description: "Visit our physical cart at Rd 10/A, Dhanmondi, Dhaka 1205. Enjoy fresh, hygienic stood daab in person.",
+    linkText: "Get Directions",
+    href: "https://maps.google.com/?q=Rd+10/A,+Dhanmondi,+Dhaka+1205",
+    icon: (
+      <svg className="w-6 h-6 text-pd-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
   },
@@ -122,7 +135,7 @@ export default function ContactPage() {
 
       {/* 2. Contact Cards Grid */}
       <section className="py-16 mx-auto max-w-[1280px] px-6 sm:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {CONTACT_CARDS.map((card) => (
             <div
               key={card.title}
