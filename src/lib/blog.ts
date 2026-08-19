@@ -69,14 +69,14 @@ export const allBlogPosts: BlogPost[] = [
     ],
   },
   {
-    title: 'ডাবের দাম কত? ২০২৫ সালে ঢাকায় ডাবের আসল মূল্য',
+    title: 'ডাবের দাম কত? ২০২৬ সালে ঢাকায় ডাবের আসল মূল্য',
     slug: 'daab-er-daam-koto',
     description:
       'রাস্তার ডাব, অনলাইনে ডাব, আর Premium Daab — তিনটার দাম কত? কোনটায় কী পাচ্ছেন? সহজ তুলনামূলক গাইড।',
     publishedAt: '2026-08-19',
     category: 'দাম ও অর্ডার',
     primaryKeyword: 'ডাবের দাম',
-    secondaryKeywords: ['daab price Dhaka 2025', 'daab price Bangladesh', 'coconut water price Bangladesh'],
+    secondaryKeywords: ['daab price Dhaka 2026', 'daab price Bangladesh', 'coconut water price Bangladesh'],
     lang: 'bn',
     readingTime: '৫ মিনিট',
     author: 'Premium Daab Team',

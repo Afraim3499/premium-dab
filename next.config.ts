@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
 const withMDX = createMDX({
   // Turbopack requires plugin names as strings (not function references)
   options: {
-    remarkPlugins: [],
+    remarkPlugins: ["remark-gfm"],
     rehypePlugins: [],
   },
 });
